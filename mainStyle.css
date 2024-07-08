@@ -22,9 +22,10 @@ body {
 }
 
 .outerSec1 {
-    display: inline;
+    display: flex;
+    justify-content: center;
 }
 
 .innerSec1 {
-    display: inline;
+    height: 60vh;
 }
