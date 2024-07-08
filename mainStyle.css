@@ -15,3 +15,16 @@ body {
     border: 2px solid black;
     padding: 10px;
 }
+
+.moving {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.outerSec1 {
+    display: inline;
+}
+
+.innerSec1 {
+    display: inline;
+}
