@@ -46,9 +46,15 @@ body {
     justify-content: center;
 }
 
-.innerSec1 {
+/* .innerSec1 {
     height: 60vh;
     padding: 1%;
     border: 2px solid green;
     flex: auto;
+} */
+
+.innerSec1 {
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
 }
