@@ -29,6 +29,12 @@ body {
     box-sizing: border-box;
 }
 
+.TopBar_Nav_Elements li {
+    text-decoration: none;
+    display: inline;
+    margin-inline: 1rem;
+}
+
 .FixedHeading {
     top: 0;
     position: sticky;
