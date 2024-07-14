@@ -8,38 +8,52 @@
 body {
     background-color: #f4dcd7;
     height: 200vh;
+    max-width: 100%;
 }
 
-.nav_1 {
+.TopBar {
+    background-color: transparent;
+    /* position: inherit; */
+}
+
+.TopBar_Nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.TopBar_Nav_Elements {
+    box-sizing: border-box;
+}
+
+.FixedHeading {
+    top: 0;
+    position: sticky;
+    width: 100%;
     font-size: 1.5rem;
     background-color: antiquewhite;
     /* height: 20%; */
-    border: 2px solid black;
+    border-bottom: 1px solid whitesmoke;
     padding: 0.5rem;
+    display: block;
 }
 
-.atPlace {
-    background-color: transparent;
-    top: 0;
-    position: sticky;
-}
-
-.nav_1 img {
+.FixedHeading img {
     height: 20px;
     width: auto;
     display: inline;
 }
 
-.nav_1 li{
+.FixedHeading li{
     text-decoration: none;
     display: inline;
     margin-inline: 1em;
 }
 
-.moving {
-    border: 2px solid red;
-    padding: 10px;
-}
+
 
 .outerSec1 {
     display: flex;
