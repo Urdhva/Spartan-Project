@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f4dcd7;
-    height: 200vh;
+    background-color: whitesmoke;
+    min-height: 200vh;
     max-width: 100%;
 }
 
@@ -43,7 +43,7 @@ body {
     background-color: antiquewhite;
     /* height: 20%; */
     border-bottom: 1px solid whitesmoke;
-    padding: 0.5rem;
+    padding: 1rem;
     display: block;
 }
 
@@ -56,25 +56,31 @@ body {
 .FixedHeading li{
     text-decoration: none;
     display: inline;
-    margin-inline: 1em;
+    margin-inline-end: 1rem;
 }
 
 
 
-.outerSec1 {
-    display: flex;
+.MainBody {
+    /* display: flex; */
     justify-content: center;
 }
 
-/* .innerSec1 {
-    height: 60vh;
-    padding: 1%;
-    border: 2px solid green;
-    flex: auto;
-} */
 
-.innerSec1 {
+.MainBody_Card {
     border: 2px solid red;
     width: 100%;
     height: 100vh;
+    padding: 1rem;
+}
+
+.MainBody_Card h1{
+    width: 20%;
+    padding-block: 1rem;
+    font-size: 2.5rem;
+}
+
+.MainBody_Card p {
+    width: 40%;
+    padding-block: 1rem;
 }
