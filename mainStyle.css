@@ -71,6 +71,19 @@ body {
     width: 100%;
     height: 100vh;
     padding: 1rem;
+    color: aliceblue;
+    background-image: url(images/Stocks,Crypto/andre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg);
+}
+
+.MainBody_MovingCard h1 {
+    width: 20%;
+    padding-block: 1rem;
+    font-size: 2.5rem;
+}
+
+.MainBody_MovingCard p{
+    width: 40%;
+    padding-block: 1rem;
 }
 
 
