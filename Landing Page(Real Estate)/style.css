@@ -1,0 +1,47 @@
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("main.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+
+  .details{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    line-height: 1.7;
+    text-align: center;
+    color: black;
+  }
+
+  .anchor {
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white    ;
+  }
+  
+  a {
+    color: lightgray;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+  }
