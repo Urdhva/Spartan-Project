@@ -1,0 +1,21 @@
+body {
+    background-image: url("Stock.jpg");
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+  }
+
+.details{
+    text-align: center;
+    margin-top: 10%;
+    color:lightgray;
+    font-size: 30px;
+}
+
+.list li{
+    text-align: left;
+    color: lightgray;
+    font-size: 25px;
+}

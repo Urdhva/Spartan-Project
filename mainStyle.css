@@ -7,10 +7,18 @@
 
 body {
     background-color: whitesmoke;
+    font-family: "Graphik", Helvetica, sans-serif, "Lucida Sans Unicode";
     min-height: 200vh;
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
 
 .TopBar {
     background-color: transparent;
@@ -22,7 +30,7 @@ body {
     width: 100%;
     position: relative;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 1rem;
 }
 
@@ -42,9 +50,9 @@ body {
     position: sticky;
     width: 100%;
     font-size: 1.5rem;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     /* height: 20%; */
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid gray;
     padding: 1rem;
     display: block;
 }
@@ -68,11 +76,22 @@ body {
 
 .MainBody_MovingCard {
     border: 2px solid red;
+    /* background-color: darkgray; */
     width: 100%;
     height: 100vh;
     padding: 1rem;
-    color: aliceblue;
-    background-image: url(images/Stocks,Crypto/andre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg);
+    color: white;
+    background-image: url(images/RealEstate/picture4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(images/Real \Estate/picture1.jpg);
+    }   
 }
 
 .MainBody_MovingCard h1 {
@@ -86,9 +105,10 @@ body {
     padding-block: 1rem;
 }
 
-
 .MainBody_Card {
     border: 2px solid red;
+    /* background-color: darkgray; */
+    color: black;
     width: 100%;
     height: 100vh;
     padding: 1rem;
