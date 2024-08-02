@@ -11,6 +11,17 @@ body {
     max-width: 100%;
 }
 
+p{
+    text-align: justify;
+    width: 40%;
+    padding-block: 1rem;
+}
+
+h1 {
+    width: 20%;
+    padding-block: 1rem;
+    font-size: 2.5rem;
+}
 /* a {
     text-decoration: none;
     color: gray;
@@ -44,7 +55,7 @@ body {
     text-decoration: none;
     display: inline;
     /* margin-inline: 1rem; */
-    padding-left: 0px;
+    padding-inline: 3vh;
 }
 
 .FixedHeading {
@@ -130,10 +141,10 @@ body {
     font-size: 2.5rem;
 }
 
-.MainBody_MovingCard p{
+/* .MainBody_MovingCard p{
     width: 40%;
     padding-block: 1rem;
-}
+} */
 
 .MainBody_Card1 {
     border: 2px solid red;
@@ -174,11 +185,11 @@ body {
     padding: 1rem;
 }
 
-.MainBody_Card h1{
+/* .MainBody_Card h1{
     width: 20%;
     padding-block: 1rem;
     font-size: 2.5rem;
-}
+} */
 
 .MainBody_Card p {
     width: 40%;
