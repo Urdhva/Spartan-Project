@@ -12,13 +12,14 @@ body {
     max-width: 100%;
 }
 
-a {
+/* a {
     text-decoration: none;
-    color: black;
-}
-a:hover {
+    color: gray;
+} */
+
+/* a:hover {
     color: red;
-}
+} */
 
 .TopBar {
     background-color: transparent;
@@ -31,6 +32,8 @@ a:hover {
     position: relative;
     justify-content: space-between;
     /* border: 2px solid red; */
+    background-color: black;
+    color: grey;
     padding: 1rem;
 }
 
@@ -50,25 +53,48 @@ a:hover {
     position: sticky;
     width: 100%;
     font-size: 1.5rem;
-    background-color: whitesmoke;
+    color: grey;
+    background-color: black;
     
     /* height: 20%; */
     border-bottom: 1px solid gray;
     padding: 1rem;
     display: block;
+    /* align-items: center; */
+    
 }
 
-.FixedHeading img {
+/* .FixedHeading img {
     height: 20px;
     width: auto;
     display: inline;
+} */
+
+
+.FixedHeading nav{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
+
+
 
 .FixedHeading li{
     text-decoration: none;
     display: inline;
-    margin-inline-end: 1rem;
+    /* justify-content: space-evenly; */
+    margin-inline-end: 4rem;
 }
+
+.FixedHeading a {
+    text-decoration: none;
+    color: gray;
+}
+
+.FixedHeading a:hover {
+    color: whitesmoke;
+}
+
 
 .MainBody {
     /* display: flex; */
@@ -84,12 +110,18 @@ a:hover {
     color: black;
     /* background-image: url(images/RealEstate/picture4.jpg); */
     /* overflow: hidden; */
-    background-image: url('images/Yacht/danilo-capece-Mn5vLHPLTuw-unsplash.jpg');
+    /* background-image: url('images/Yacht/danilo-capece-Mn5vLHPLTuw-unsplash.jpg');
      /* url('images/StocksCrypto/picture13.jpg'), url('images/RealEstate/picture5.jpg'); */
-    background-size: cover;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    filter: blur(5px); */ 
     /*background-position: 0% 0%, 100% 0%, 200% 0%;
     animation: slide 20s infinite linear; */
 }
+
+
 
 /* @keyframes slide {
     0% {
