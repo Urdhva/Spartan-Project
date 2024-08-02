@@ -1,0 +1,159 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Graphik", Helvetica, sans-serif, "Lucida Sans Unicode";
+    min-height: 200vh;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+
+.TopBar {
+    background-color: transparent;
+    /* position: inherit; */
+}
+
+.TopBar_Nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.TopBar_Nav_Elements {
+    box-sizing: border-box;
+}
+
+.TopBar_Nav_Elements li {
+    text-decoration: none;
+    display: inline;
+    /* margin-inline: 1rem; */
+    padding-left: 0px;
+}
+
+.FixedHeading {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    /* height: 20%; */
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    display: block;
+}
+
+.FixedHeading img {
+    height: 20px;
+    width: auto;
+    display: inline;
+}
+
+.FixedHeading li{
+    text-decoration: none;
+    display: inline;
+    margin-inline-end: 1rem;
+}
+
+.MainBody {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.MainBody_MovingCard {
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    color: white;
+    background-image: url(images/RealEstate/picture4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(images/RealEstate/picture1.jpg);
+    }   
+}
+
+.MainBody_MovingCard h1 {
+    width: 20%;
+    padding-block: 1rem;
+    font-size: 2.5rem;
+}
+
+.MainBody_MovingCard p{
+    width: 40%;
+    padding-block: 1rem;
+}
+
+.MainBody_Card1 {
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    background-image: url(images/Watch/pexels-bemistermister-380782.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.MainBody_Card2 {
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    background-image: url(images/Aesthetics/picture17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.MainBody_Card3 {  
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    background-image: url(images/Yacht/pexels-vincent-gerbouin-445991-2231298.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.MainBody_Card h1{
+    width: 20%;
+    padding-block: 1rem;
+    font-size: 2.5rem;
+}
+
+.MainBody_Card p {
+    width: 40%;
+    padding-block: 1rem;
+}
+
+.Footer {
+    width: 100%;
+}
