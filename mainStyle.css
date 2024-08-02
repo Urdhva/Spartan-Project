@@ -1,5 +1,4 @@
-
-* {
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -107,18 +106,11 @@ body {
     width: 100%;
     height: 100vh;
     padding: 1rem;
-    color: black;
-    /* background-image: url(images/RealEstate/picture4.jpg); */
-    /* overflow: hidden; */
-    /* background-image: url('images/Yacht/danilo-capece-Mn5vLHPLTuw-unsplash.jpg');
-     /* url('images/StocksCrypto/picture13.jpg'), url('images/RealEstate/picture5.jpg'); */
-    /* background-size: cover;
+    color: white;
+    background-image: url(images/RealEstate/picture4.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
-
-    filter: blur(5px); */ 
-    /*background-position: 0% 0%, 100% 0%, 200% 0%;
-    animation: slide 20s infinite linear; */
+    background-size: cover;
 }
 
 
@@ -143,22 +135,43 @@ body {
     padding-block: 1rem;
 }
 
-.MainBody_Card {
+.MainBody_Card1 {
     border: 2px solid red;
     /* background-color: darkgray; */
+    background-image: url(images/Watch/pexels-bemistermister-380782.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
     width: 100%;
     height: 100vh;
     padding: 1rem;
 }
 
-.MainBody_Card_float {
-    float: right;
+.MainBody_Card2 {
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    background-image: url(images/Aesthetics/picture17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
 }
 
-.MainBody_Card_float img{
+.MainBody_Card3 {  
+    border: 2px solid red;
+    /* background-color: darkgray; */
+    background-image: url(images/Yacht/pexels-vincent-gerbouin-445991-2231298.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
     padding: 1rem;
-    height: 80vh;
 }
 
 .MainBody_Card h1{
