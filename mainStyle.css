@@ -51,6 +51,7 @@ a:hover {
     width: 100%;
     font-size: 1.5rem;
     background-color: whitesmoke;
+    
     /* height: 20%; */
     border-bottom: 1px solid gray;
     padding: 1rem;
@@ -83,20 +84,21 @@ a:hover {
     color: black;
     /* background-image: url(images/RealEstate/picture4.jpg); */
     /* overflow: hidden; */
-    background-image: url('images/Yacht/danilo-capece-Mn5vLHPLTuw-unsplash.jpg'), url('images/StocksCrypto/picture13.jpg'), url('images/RealEstate/picture5.jpg');
+    background-image: url('images/Yacht/danilo-capece-Mn5vLHPLTuw-unsplash.jpg');
+     /* url('images/StocksCrypto/picture13.jpg'), url('images/RealEstate/picture5.jpg'); */
     background-size: cover;
-    background-position: 0% 0%, 100% 0%, 200% 0%;
-    animation: slide 5s infinite linear;
+    /*background-position: 0% 0%, 100% 0%, 200% 0%;
+    animation: slide 20s infinite linear; */
 }
 
-@keyframes slide {
+/* @keyframes slide {
     0% {
       transform: translateX(0%);
     }
     100% {
       transform: translateX(-100%);
     }
-  }
+  } */
 
 .MainBody_MovingCard h1 {
     width: 20%;
