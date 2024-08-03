@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mainStyle.css">
+        <style>
+            body {
+                background-image: url(images/Aesthetics/picture15.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            section {
+                display: flex;
+                align-items: center;
+                height: 100vh;
+                justify-content: center;
+            }
+
+            h2 {
+                color: whitesmoke;
+                justify-content: inherit;
+            }
+
+            .middle {
+                background-color: rgb(93, 91, 91);
+                /* border:10px solid gray; */
+                max-width: 50%;
+                margin: auto;
+                height: 55vh;
+                width: 70vh;
+                /* display: flex; */
+                text-align: center  ;
+                align-items: center;
+                justify-content: center;
+                line-height: 1.5;
+                border: 2px solid #000000;
+            }
+            
+            .logo img {
+                width: 50%;
+                height: 9rem;
+                margin: 2rem;
+            }
+
+            input, button {
+                font: inherit
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="middle">
+                <h2 style="padding-top: 5%;">Sign In With</h2>
+                <div class="logo">
+                    <img src="images/logoWealthify.jpg"/>
+                </div>
+                <form style="color: whitesmoke;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: <input type="email" id="mail">
+                    <br><br>
+                    Password: <input type="password" id="pswd" >
+                    <br><br>
+                    <input type="submit" onclick="validation()">
+                </form>
+                <script>
+                    const mail = document.getElementById('mail');
+                    const pswd = document.getElementById('pswd');
+                    
+                    function validation() {
+                        if(mail.value == '')
+                        {
+                            alert('Enter mail');
+                        }
+                        if(pswd.value == '')
+                        {
+                            alert('Enter password');
+                        }
+                        else{
+                            <a href="index.html"> </a>;
+                        }
+                    }
+                </script>
+        </section>
+    </body>
+</html>
