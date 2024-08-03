@@ -1,0 +1,22 @@
+body {
+    background-image: url(NYSE.mp4);
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+  }
+
+.details{
+    text-align: center;
+    margin-top: 10%;
+    color:black;
+    font-size: 30px;
+    background-color: gray;
+    opacity: 65%;
+    border-radius: 20px;
+    padding:  20px 20px 20px ;
+}
+
+
+
